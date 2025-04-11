@@ -11,8 +11,8 @@ import pathlib
 
 # Set the path of the input folder
 
-dataset = "https://drive.google.com/uc?export=download&id=1ThUklHdF9_LhujOFvg6-2kxqB79vnO92"
-directory = tf.keras.utils.get_file('losmasguaposdeltec', origin=dataset, untar=True)
+dataset = "https://drive.google.com/uc?export=download&id=1Y4GEnPImBTBJgdYOS3qVPOeH_5G9y0ns"
+directory = tf.keras.utils.get_file('si', origin=dataset, untar=True)
 data = pathlib.Path(directory)
 
 #print(folders)
@@ -22,7 +22,7 @@ data = pathlib.Path(directory)
 
 labels = []
 images = []
-listPersons = ['Angel', 'Arkel', 'gabriel', 'Guadalupe','JULIO']
+listPersons = ['angel', 'arkel', 'gabriel', 'guadalupe','julio']
 
 size = 64,64
 print('folders')
